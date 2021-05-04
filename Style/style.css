@@ -1,0 +1,29 @@
+
+.text-card-h5 {
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+  
+}
+.text-card-p {
+    font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.card {
+    border: none;
+    line-height: 1.2;
+  
+}
+.card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.card-body-color0-4 {
+    background-color: #00adb5;
+}
+.card-body-color1-3 {
+    background-color: #aad8d3;
+}
+.card-body-color2 {
+    background-color: #eeeeee;
+}
