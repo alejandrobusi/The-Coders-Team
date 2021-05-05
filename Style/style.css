@@ -27,3 +27,15 @@
 .card-body-color2 {
     background-color: #eeeeee;
 }
+h1{
+    background-color: #aad8d3;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: #aad8d3;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+iframe{
+    max-width: 100%;
+    max-height: 100%;
+}
