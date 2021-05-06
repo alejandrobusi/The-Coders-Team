@@ -27,9 +27,8 @@
 .card-body-color2 {
     background-color: #eeeeee;
 }
-h1{
+.contactanos{
     background-color: #aad8d3;
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 footer{
     background-color: #aad8d3;
@@ -38,4 +37,14 @@ footer{
 iframe{
     max-width: 100%;
     max-height: 100%;
+}
+.links{
+    color: black; 
+}
+li{
+    display: inline-block;
+    margin: 4px;
+}
+span{
+   font-family: "Montserrat", Arial, Helvetica, sans-serif; 
 }
