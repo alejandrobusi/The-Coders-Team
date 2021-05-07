@@ -1,3 +1,14 @@
+.color{
+    background-color: #aad8d3;
+    font-family: 'Montserrat', sans-serif;
+}
+.width-logo{
+    width: 260px;
+}
+.texto-dropdown {
+    color: black;
+    font-weight: bold;
+}
 .carousel-text{
     background-color: black;
     opacity: 0.6;
