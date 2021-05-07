@@ -5,6 +5,9 @@
 .width-logo{
     width: 260px;
 }
+.fix-nav {
+    position: fixed;
+}
 .texto-dropdown {
     color: black;
     font-weight: bold;
