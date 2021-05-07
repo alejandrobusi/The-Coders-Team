@@ -69,10 +69,10 @@ iframe{
 .links{
     color: black; 
 }
-li{
+.container-redes{
     display: inline-block;
     margin: 4px;
 }
-span{
+.span-contactos{
    font-family: "Montserrat", Arial, Helvetica, sans-serif; 
 }
