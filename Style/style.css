@@ -1,12 +1,9 @@
-.color{
+.color-header {
     background-color: #aad8d3;
     font-family: 'Montserrat', sans-serif;
 }
 .width-logo{
-    width: 260px;
-}
-.fix-nav {
-    position: fixed;
+    width: 200px;
 }
 .texto-dropdown {
     color: black;
