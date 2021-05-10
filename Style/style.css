@@ -1,6 +1,6 @@
-.color-header {
+header {
     background-color: #aad8d3;
-    font-family: 'Montserrat', sans-serif;
+    font-family:  "Montserrat", Arial, Helvetica, sans-serif
 }
 .width-logo{
     width: 200px;
