@@ -76,6 +76,29 @@ header {
 .colorform{
     background:#AAD8D3;
 }
+.text-h1-b {
+    font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
+}
+  .text-p-b {
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+}
+  .background-busi {
+    background-color: #393E46;
+    color: white;
+}
+  .carousel-caption-b {
+    color: black;
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+  
 footer{
     background-color: #aad8d3;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
