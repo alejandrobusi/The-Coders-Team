@@ -1,9 +1,19 @@
-header {
-    background-color: #aad8d3;
-    font-family:  "Montserrat", Arial, Helvetica, sans-serif
+:root {
+    --verde-primario: #aad8d3; 
+    --verde-secundario: #00adb5;
+    --fuente-primaria: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --fuente-secundaria: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --width-logo: 200px;
+}
+a {
+    text-decoration: none;
+}
+.HeaderR {
+    background-color: var(--verde-primario);
+    font-family: var(--fuente-primaria);
 }
 .width-logo{
-    width: 200px;
+    width: var(--width-logo);
 }
 .texto-dropdown {
     color: black;
@@ -39,13 +49,13 @@ header {
     }
 }
 .text-card-h5 {
-    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: var(--fuente-secundaria);
     font-size: 1.5rem;
-    text-decoration: none;
+    
   
 }
 .text-card-p {
-    font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: var(--fuente-primaria);
 }
 
 .card {
@@ -58,44 +68,43 @@ header {
     border-top-right-radius: 0px;
 }
 .card-body-color0-4 {
-    background-color: #00adb5;
+    background-color: var(--verde-secundario);
 }
 .card-body-color1-3 {
-    background-color: #aad8d3;
+    background-color: var(--verde-primario);
 }
 .card-body-color2 {
     background-color: #eeeeee;
 }
 .contactanos{
-    background-color: #aad8d3;
+    background-color: var(--verde-primario);;
 }
 .fuente{
     color: dimgray;
-    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: var(--fuente-secundaria);
 }
 .colorform{
-    background:#AAD8D3;
+    background: var(--verde-primario);
 }
 .bg-img{
     float: left;
 }
-  .bg-text{
-      background-color: #393e46;
-      float: right;
-      font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.bg-text{
+    background-color: #393e46;
+    float: right;
+    font-family: var(--fuente-primaria);
 }
 .text-h1-b {
-    font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
+    font-family: var(--fuente-primaria);
 }
-  .text-p-b {
-    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
-      sans-serif;
+.text-p-b {
+    font-family: var(--fuente-secundaria)
 }
-  .background-busi {
+.bg-sec {
     background-color: #393E46;
     color: white;
 }
-  .carousel-caption-b {
+.carousel-caption-b {
     color: black;
     position: absolute;
     right: 15%;
@@ -108,7 +117,7 @@ header {
 }
 .button-noticias{
     border-radius: 0px;
-    background-color: #AAD8D3;
+    background-color: var(--verde-primario);
     color: white;
 }
 .button-noticias:hover {
@@ -133,7 +142,7 @@ header {
 }
 
 .news-date{
-    background: #aad8d3 none repeat scroll 0 0;
+    background: var(--verde-primario) none repeat scroll 0 0;
     color: #fff;
     left: 0;
     line-height: 1;
@@ -143,16 +152,15 @@ header {
     position: absolute;
     text-align: center;
     top: 0;
-   
 }
 .news-date-custom{
     font-size: 45px;
     margin-bottom: 0px;
     margin-top: -5px;
 }
-footer{
-    background-color: #aad8d3;
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+.footerJ{
+    background-color: var(--verde-primario);
+    font-family:  var(--fuente-primaria);
     
 }
 iframe{
@@ -167,5 +175,5 @@ iframe{
     margin: 4px;
 }
 .span-contactos{
-   font-family: "Montserrat", Arial, Helvetica, sans-serif; 
+    font-family: var(--fuente-primaria); 
 }
