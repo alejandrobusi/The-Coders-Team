@@ -177,3 +177,26 @@ iframe{
 .span-contactos{
     font-family: var(--fuente-primaria); 
 }
+.team-dr{
+    position: relative
+}
+.text-dr{
+    position: absolute;
+    bottom: 0%;
+    transition: all .5s;
+    padding: 10px;
+    /* background-color: var(--verde-secundario); */
+    color: white;
+    opacity: 0;
+    font-size: 50px;
+    font: var(--fuente-primaria);
+    
+}  
+.text-dr:hover {
+    /* transform: translateY(100%); */
+    opacity: 1;
+}
+
+.sec-med{
+    font: var(--fuente-secundaria);
+}
