@@ -51,17 +51,13 @@ a {
 .text-card-h5 {
     font-family: var(--fuente-secundaria);
     font-size: 1.5rem;
-    
-  
 }
 .text-card-p {
     font-family: var(--fuente-primaria);
 }
-
 .card {
     border: none;
     line-height: 1.2;
-  
 }
 .card-img-top {
     border-top-left-radius: 0px;
@@ -126,7 +122,6 @@ a {
 }
 .news-img-cont{
     position: relative;
-    
 }
 .style-notice{
     color: gray;
@@ -140,7 +135,6 @@ a {
     filter: grayscale(0%);
     transition:0.4s;
 }
-
 .news-date{
     background: var(--verde-primario) none repeat scroll 0 0;
     color: #fff;
@@ -190,13 +184,11 @@ iframe{
     opacity: 0;
     font-size: 50px;
     font: var(--fuente-primaria);
-    
 }  
 .text-dr:hover {
     /* transform: translateY(100%); */
     opacity: 1;
 }
-
 .sec-med{
     font: var(--fuente-secundaria);
 }
