@@ -36,11 +36,12 @@ body {
 }
 a{
     text-decoration: none;
-    background: #fff;
-    color: black;
+    background: linear-gradient(90deg, rgba(231,16,37,1) 1%, rgba(160,13,51,1) 45%, rgba(153,52,141,1) 100%);
+    color: rgb(255, 255, 255);
     padding: 12px 24px;
     display: inline-block;
     border-radius: 25px;
     font-size: 14px;
     transition: 0.4s;
+    border: 2px solid white;
 }
